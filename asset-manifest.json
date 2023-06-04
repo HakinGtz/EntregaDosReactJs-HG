@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/PrimeraPreEntregaReactJS-HakinGutierrez/static/css/main.666cfd10.css",
-    "main.js": "/PrimeraPreEntregaReactJS-HakinGutierrez/static/js/main.7dcbc9d6.js",
-    "static/media/logo.png": "/PrimeraPreEntregaReactJS-HakinGutierrez/static/media/logo.c4e3b0bfaa454514ba9b.png",
-    "index.html": "/PrimeraPreEntregaReactJS-HakinGutierrez/index.html",
-    "main.666cfd10.css.map": "/PrimeraPreEntregaReactJS-HakinGutierrez/static/css/main.666cfd10.css.map",
-    "main.7dcbc9d6.js.map": "/PrimeraPreEntregaReactJS-HakinGutierrez/static/js/main.7dcbc9d6.js.map"
+    "main.css": "//hakingtz.github.io/EntregaUnoReactJs-HG/static/css/main.666cfd10.css",
+    "main.js": "//hakingtz.github.io/EntregaUnoReactJs-HG/static/js/main.9db7e89f.js",
+    "static/media/logo.png": "//hakingtz.github.io/EntregaUnoReactJs-HG/static/media/logo.c4e3b0bfaa454514ba9b.png",
+    "index.html": "//hakingtz.github.io/EntregaUnoReactJs-HG/index.html",
+    "main.666cfd10.css.map": "//hakingtz.github.io/EntregaUnoReactJs-HG/static/css/main.666cfd10.css.map",
+    "main.9db7e89f.js.map": "//hakingtz.github.io/EntregaUnoReactJs-HG/static/js/main.9db7e89f.js.map"
   },
   "entrypoints": [
     "static/css/main.666cfd10.css",
-    "static/js/main.7dcbc9d6.js"
+    "static/js/main.9db7e89f.js"
   ]
 }
