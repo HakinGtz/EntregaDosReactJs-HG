@@ -1,0 +1,22 @@
+.Header {
+	display: flex;
+
+	justify-content: space-evenly;
+	flex-direction: row;
+	align-items: center;
+	background-color: black;
+
+}
+
+.Header h1{
+	color: aliceblue;
+	font-family: 'Poppins', sans-serif;
+    margin: auto;
+    text-align: center;
+    justify-content: center; 
+}
+.Imglogo{
+	flex-wrap: wrap;
+	border-radius:10% ;
+	width: 6rem;
+}
