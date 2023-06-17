@@ -16,3 +16,8 @@ nav{
         background-color: #352f2f;
         color: white
       }
+      .li {
+        color: white;
+        list-style-type: none;
+        text-decoration: none;
+      }

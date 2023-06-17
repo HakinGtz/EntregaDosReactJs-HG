@@ -1,5 +1,7 @@
 import React from "react";
 import "./NavBar.css";
+import { Link } from "react-router-dom";
+
 
 import CardWidget from "../CardWidget/CardWidget";
 
@@ -28,20 +30,30 @@ const NavBar = () => {
                           fontSize:"3vh",
                         }}>
                             <li className="nav-item">
-                                <a className="nav-link white" aria-current="page" href="../index.html">Inicio</a>
+                            <Link className="li" to="/">
+                            Home
+                            </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link white" href="noticias.html">Noticias</a>
+                            <Link className="li" to="/about">
+                            About
+                            </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active white" href="productos.html">Productos</a>
+                            <Link className="li" to="/contact">
+                            Contact
+                            </Link>
                             </li>
-                            <li className="nav-item">
-                                <a class="nav-link white" href="nosotros.html">Nosotros</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link white" href="contacto.html">Contáctanos</a>
-                            </li>
+                            <div className="dropdown">
+                                <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Category
+                                </button>
+                                <ul className="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                                </div>
                             <li>
                             <CardWidget />
                             </li>

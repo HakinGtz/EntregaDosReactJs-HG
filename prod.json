@@ -1,0 +1,50 @@
+[
+    {
+        "code": 1,
+        "title" : "Cámara 1488HD Stryker para endoscopia",
+        "price": 150000,
+        "img": "img/endo.png",
+        "categoria": "Endoscopia",
+        "cantidad": 10
+    },
+    {
+        "code": 2,
+        "title" : "Cámara IM8000 TrueHD Conmed",
+        "price": 100000,
+        "img": "img/endo1.png",
+        "categoria": "Endoscopia",
+        "cantidad": 4
+    },
+    {
+        "code": 3,
+        "title" : "Monitor signos vitales mod UMEC10 mindray",
+        "price": 20000,
+        "img": "img/MSV.png",
+        "categoria": "Cardiología Monitores",
+        "cantidad": 5
+    },
+    {
+        "code": 4,
+        "title" : "Monitor LED 4K Sony Medical",
+        "price": 15000,
+        "img": "img/mtr.png",
+        "categoria": "Monitores",
+        "cantidad": 3
+    },
+    {
+        "code": 5,
+        "title" : "Electrocardiógrafo SONOECG12000 12 canales",
+        "price": 32000,
+        "img": "img/cardio.webp",
+        "categoria": "Cardiología",
+        "cantidad": 10
+    },
+    {
+        "code": 6,
+        "title" : "Desfibrilador Sono-AED-Automatico",
+        "price": 49000,
+        "img": "img/des.webp",
+        "categoria": "Cardiología",
+        "cantidad": 6
+    }
+]

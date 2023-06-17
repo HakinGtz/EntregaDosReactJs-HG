@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 // Imagen
 import img from "./logo.png";
@@ -7,8 +8,9 @@ import img from "./logo.png";
 const Header = (props) => {
   return (
     <div className="Header">
-      <a href="../public/index.html">
-      <img className="Imglogo"src={img} alt="logo-coder" /></a>
+      <Link to="/">
+        <img className="Imglogo" src={img} alt="HGBiomedics"/>
+      </Link>
       <h1>{props.title}</h1>
     </div>
   );
