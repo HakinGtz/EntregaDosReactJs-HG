@@ -12,14 +12,14 @@ const Category = () => {
   console.log("chars", chars);
 
   let filteredCharacters = chars.filter((char) => {
-    return char.species === categoryId;
+    return char.categoria === categoryId;
   });
 
   console.log("filteredCharacters", filteredCharacters);
 
   useEffect(() => {
     axios(`${process.env.REACT_APP_BASE_URL}`).then((json) =>
-      setChars(json.data.results)
+      setChars(json.data.products)
     );
   }, []);
 

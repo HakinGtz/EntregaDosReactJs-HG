@@ -4,7 +4,7 @@ import ListUser from "../../components/ListUser/ListUser";
 const HomePage = () => {
   return (
     <div>
-      <h1>Characters Rick & Morty!</h1>
+      <h1>Nuestro cátalogo</h1>
       <ListUser />
     </div>
   );

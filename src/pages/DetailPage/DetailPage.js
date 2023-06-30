@@ -13,8 +13,8 @@ const DetailPage = () => {
   console.log(char);
 
   useEffect(() => {
-    axios(`https://rickandmortyapi.com/api/character/${id}`).then((json) =>
-      setChar(json.data)
+    axios(`https://my-json-server.typicode.com/HakinGtz/Apiproduct/db/${id}`).then((json) =>
+      setChar(json.data.products)
     );
   }, [id]);
 

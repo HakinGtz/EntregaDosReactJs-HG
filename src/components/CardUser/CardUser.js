@@ -6,21 +6,21 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 
 const CardUser = ({ char }) => {
-  const { image, name, status, species, origin } = char;
+  const { img, title, price, categoria, cantidad } = char;
 
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
-        <CardMedia component="img" image={image} alt="green iguana" />
+        <CardMedia component="img" image={img} alt="green iguana" />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            {name}
+            {title}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {status} | {species}
+            {price} | {categoria}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {origin.name}
+            {cantidad}
           </Typography>
         </CardContent>
       </CardActionArea>

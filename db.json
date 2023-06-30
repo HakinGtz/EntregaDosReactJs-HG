@@ -1,0 +1,52 @@
+{
+    "products":[
+    {
+        "id": 1,
+        "title" : "Camara 1488HD Stryker para endoscopia",
+        "price": 150000,
+        "img": "https://cdn.bimedis.com/img/vimg/193164/big",
+        "categoria": "Endoscopia",
+        "cantidad": 10
+    },
+    {
+        "id": 2,
+        "title" : "Camara IM8000 TrueHD Conmed",
+        "price": 100000,
+        "img": "https://www.conmed.com/-/media/conmed/images/product-images/surgical-imaging/im8000-true-hd-3mos-camera-system/im8000-true-hd-3mos-camera-system/im8000-camera-system_producthero_mobile.ashx",
+        "categoria": "Endoscopia",
+        "cantidad": 4
+    },
+    {
+        "id": 3,
+        "title" : "Monitor signos vitales mod UMEC10 mindray",
+        "price": 20000,
+        "img": "https://medicalequipomedico.com.mx/wp-content/uploads/2020/06/MONITOR-SIGNOS-VITALES-MOD.-UMEC10-MINDRAY-MIM1K6B-PA00180.jpg",
+        "categoria": "Monitores",
+        "cantidad": 5
+    },
+    {
+        "id": 4,
+        "title" : "Monitor LED 4K Sony Medical",
+        "price": 15000,
+        "img": "https://www.endoscopiapuebla.mx/wp-content/uploads/2020/08/sony-lmd2735md_1.jpg",
+        "categoria": "Monitores",
+        "cantidad": 3
+    },
+    {
+        "id": 5,
+        "title" : "Electrocardiografo SONOECG12000 12 canales",
+        "price": 32000,
+        "img": "https://soloequiposmedicos.mx/wp-content/uploads/2013/11/principal_principal.jpg",
+        "categoria": "Cardiologia",
+        "cantidad": 10
+    },
+    {
+        "id": 6,
+        "title" : "Desfibrilador Sono-AED-Automatico",
+        "price": 49000,
+        "img": "https://laciudadmedica.com/wp-content/uploads/2020/10/Sin-titulo-1.jpg",
+        "categoria": "Cardiologia",
+        "cantidad": 6
+    }
+]
+}
